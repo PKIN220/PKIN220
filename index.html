@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>เว็บคำตอบ 3 ตัวเลือก</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>เว็บคำตอบ 3 ตัวเลือก</h1>
+      <div>
+        <button id="randomBtn">สุ่มคำตอบ</button>
+        <button id="autoBtn">อัตโนมัติ</button>
+      </div>
+    </header>
+
+    <div class="card">
+      <label>คำถามของคุณ</label>
+      <input id="question" type="text" placeholder="พิมพ์คำถาม เช่น วันนี้ควรกินอะไรดี?">
+      <div>
+        <input id="choice1" type="text" value="ใช่">
+        <input id="choice2" type="text" value="ไม่ใช่">
+        <input id="choice3" type="text" value="อาจจะ">
+      </div>
+      <button id="sendBtn">ส่งคำถาม</button>
+      <button id="clearBtn">ล้างประวัติ</button>
+    </div>
+
+    <div class="card">
+      <h2>เลือกคำตอบ</h2>
+      <div class="choices">
+        <button id="btn1">ใช่</button>
+        <button id="btn2">ไม่ใช่</button>
+        <button id="btn3">อาจจะ</button>
+      </div>
+      <div id="pickedBox" class="card picked-box"></div>
+    </div>
+
+    <div class="card">
+      <h3>สถิติโดยสรุป</h3>
+      <ul id="stats" class="stats"></ul>
+    </div>
+
+    <div class="card">
+      <h3>ประวัติ</h3>
+      <div id="history" class="history"></div>
+    </div>
+
+    <footer>ทำด้วยความรัก 💜</footer>
+  </div>
+  <script src="script.js"></script>
+</body>
+      </html>
