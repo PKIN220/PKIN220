@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: linear-gradient(135deg, #d946ef, #ec4899, #f97316);
+    background: linear-gradient(135deg, #ff69b4, #ff1493, #ff6b9d);
     min-height: 100vh;
     color: white;
 }
@@ -211,4 +211,4 @@ body {
     .question-title {
         font-size: 1.3em;
     }
-  }
+}
